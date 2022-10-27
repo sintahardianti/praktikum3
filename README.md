@@ -130,5 +130,11 @@ Hasilnya:
 
 ![Screenshot (228)](https://user-images.githubusercontent.com/115516473/198234838-6e719c53-ce0f-445f-a6d9-1495daf40c7d.png)
 
+# Latihan 3
+
+## String format membuat belah ketupat
+
+
+
 
 
