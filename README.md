@@ -49,6 +49,8 @@ Hasilnya sebagai berikut :
 
 ### - String Format
 
+Format pertama:
+
 ```
 print(0, 10**0)
 print(1, 10**1)
@@ -68,4 +70,28 @@ print(10, 10**10)
 Hasilnya:
 
 ![Screenshot (221)](https://user-images.githubusercontent.com/115516473/198227847-2c13c334-3a10-4ff0-956f-16becf08d23f.png)
+
+Format kedua:
+
+```
+print('{0:>3} {1:>16}'. format(0, 10**0))
+print('{0:>3} {1:>16}'. format(1, 10**1))
+print('{0:>3} {1:>16}'. format(2, 10**2))
+print('{0:>3} {1:>16}'. format(3, 10**3))
+print('{0:>3} {1:>16}'. format(4, 10**4))
+print('{0:>3} {1:>16}'. format(5, 10**5))
+print('{0:>3} {1:>16}'. format(6, 10**6))
+print('{0:>3} {1:>16}'. format(7, 10**7))
+print('{0:>3} {1:>16}'. format(8, 10**8))
+print('{0:>3} {1:>16}'. format(9, 10**9))
+print('{0:>3} {1:>16}'. format(10, 10**10))
+```
+
+![Screenshot (223)](https://user-images.githubusercontent.com/115516473/198230010-b2968b08-a9c5-45e1-9a18-ece850a246fd.png)
+
+Hasilnya sebagai berikut:
+
+![Screenshot (224)](https://user-images.githubusercontent.com/115516473/198230810-b37f70e1-a767-4975-b73b-ae4d20a75989.png)
+
+# Latihan 2
 
