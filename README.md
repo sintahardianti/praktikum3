@@ -8,7 +8,7 @@
 
 # Latihan 1
 
-### - Pemggunaan End
+### - Penggunaan End
 
 Fungsi cetak secara default diakhiri dengan garis baru atau enter.
 
@@ -94,4 +94,41 @@ Hasilnya sebagai berikut:
 ![Screenshot (224)](https://user-images.githubusercontent.com/115516473/198230810-b37f70e1-a767-4975-b73b-ae4d20a75989.png)
 
 # Latihan 2
+
+Perintah untuk menginput variabel:
+
+```
+a=input("masukkan nilai a:")
+b=input("masukkan nilai b:")
+```
+
+Perintah untuk mencetak variabel:
+
+```
+print("variable a=", a)
+print("variable b=", b)
+```
+
+Menggabungkan variabel:
+
+```
+print("hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
+```
+
+![Screenshot (226)](https://user-images.githubusercontent.com/115516473/198233753-7293303d-7f1d-4f1f-80b6-660e01ae3235.png)
+
+Konversi nilai variabel:
+
+```
+a=int(a)
+b=int(b)
+print("hasil penjumlahan {1}&{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}+{0}=%d".format(a,b) %(a/b))
+```
+
+Hasilnya:
+
+![Screenshot (228)](https://user-images.githubusercontent.com/115516473/198234838-6e719c53-ce0f-445f-a6d9-1495daf40c7d.png)
+
+
 
