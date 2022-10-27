@@ -134,7 +134,20 @@ Hasilnya:
 
 ## String format membuat belah ketupat
 
+```
+print('Menghitung luas lingakaran')
+print('==============================')
+r = int(input('masukan jari-jari lingkaran: '))
+phi = 3.14
+L = phi * (r * r)
+print('Luas lingakaran dengan jari-jari {} adalah {}'.format(r, L))
+```
 
+![Screenshot (230)](https://user-images.githubusercontent.com/115516473/198238481-9bba3cae-4358-43b7-928e-947ff0257707.png)
+
+Hasilnya:
+
+![Screenshot 2022-10-27 155103](https://user-images.githubusercontent.com/115516473/198238801-64fc0997-bf64-4278-947f-0350e8a7f3df.png)
 
 
 
