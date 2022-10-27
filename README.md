@@ -8,7 +8,7 @@
 
 # Latihan 1
 
-- Pemggunaan End
+### - Pemggunaan End
 
 Fungsi cetak secara default diakhiri dengan garis baru atau enter.
 
@@ -28,7 +28,7 @@ Hasilnya :
 
 ![Screenshot (216)](https://user-images.githubusercontent.com/115516473/198222716-372034cb-883f-42b6-a58f-a0ee5067051d.png)
 
-- Penggunaan Seperator
+### - Penggunaan Seperator
 
 Bisa untuk memberikan perintah koma, spasi, non spasi, titik dua, dan strip.
 
@@ -47,5 +47,25 @@ Hasilnya sebagai berikut :
 
 ![Screenshot (218)](https://user-images.githubusercontent.com/115516473/198223760-2ee849f8-9297-4c2d-a02c-8db2bda426f3.png)
 
-- String Format
+### - String Format
+
+```
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**6)
+print(7, 10**7)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+```
+
+![Screenshot (220)](https://user-images.githubusercontent.com/115516473/198226246-5173e6cb-f642-4187-b34b-99c43918b6aa.png)
+
+Hasilnya:
+
+![Screenshot (221)](https://user-images.githubusercontent.com/115516473/198227847-2c13c334-3a10-4ff0-956f-16becf08d23f.png)
 
