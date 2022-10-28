@@ -134,20 +134,50 @@ Hasilnya:
 
 ## String format membuat belah ketupat
 
+Untuk membuat format berbentuk belah ketupat, kodenya adalah sebagai berikut:
 ```
-print('Menghitung luas lingakaran')
-print('==============================')
-r = int(input('masukan jari-jari lingkaran: '))
-phi = 3.14
-L = phi * (r * r)
-print('Luas lingakaran dengan jari-jari {} adalah {}'.format(r, L))
+print('{0:>16}'.format("*"))
+print('{0:>17}'.format("***"))
+print('{0:>18}'.format("*****"))
+print('{0:>19}'.format("*******"))
+print('{0:>20}'.format("*********"))
+print('{0:>19}'.format("*******"))
+print('{0:>18}'.format("*****"))
+print('{0:>17}'.format("***"))
+print('{0:>16}'.format("*"))
 ```
 
-![Screenshot (230)](https://user-images.githubusercontent.com/115516473/198238481-9bba3cae-4358-43b7-928e-947ff0257707.png)
+![Screenshot 2022-10-28 073203](https://user-images.githubusercontent.com/115516473/198422119-2a1aa902-2b99-4cde-bbf5-f6d3af3c76e0.png)
 
 Hasilnya:
 
-![Screenshot 2022-10-27 155103](https://user-images.githubusercontent.com/115516473/198238801-64fc0997-bf64-4278-947f-0350e8a7f3df.png)
+![Screenshot 2022-10-28 073328](https://user-images.githubusercontent.com/115516473/198422298-421aeb44-c51e-4354-9a73-2c9ad4de0b70.png)
 
+# Latihan 4
+
+## Menghitung luas lingkaran
+
+### Flowchart menghitung luas lingkaran
+
+![Flowchart luas lingkaran](https://user-images.githubusercontent.com/115516473/198423165-2bde9d1c-d99f-4306-9a2b-45deadaa9722.png)
+
+### Perintah/kode untung menghitung luas lingkaran
+
+Menginput rumus luas lingkaran
+```
+r = int(input('masukan jari-jari lingkaran: '))
+phi = 3.14
+L = phi * (r * r)
+```
+Mencentak luas lingkaran
+```
+print('Luas lingakaran dengan jari-jari {} adalah {}'.format(r, L))
+```
+
+![Screenshot 2022-10-28 073902](https://user-images.githubusercontent.com/115516473/198422848-9b3d7e5a-4b98-45e6-b70d-acaf18f1029d.png)
+
+Hasilnya:
+
+![Screenshot 2022-10-28 074048](https://user-images.githubusercontent.com/115516473/198423265-fb9e29eb-5321-40de-bc29-c407bfa07920.png)
 
 
