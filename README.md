@@ -1,8 +1,8 @@
-### Nama : Sinta Hardianti Wijaya
+## Nama : Sinta Hardianti Wijaya
 
-### NIM : 312210342
+## NIM : 312210342
 
-### Kelas : TI.22.A3
+## Kelas : TI.22.A3
 
 ## Praktikum 3
 
